@@ -1,62 +1,369 @@
-<<<<<<< HEAD
-# oca-token
-la token de l'ecosysteme oca fintech
-=======
-# Sample Hardhat 3 Project (`mocha` and `ethers`)
+# OCA Token
 
-This project showcases a Hardhat 3 project using `mocha` for tests and the `ethers` library for Ethereum interactions.
+OCA Token is the official utility token of the **OCA Fintech** ecosystem.
 
-To learn more about Hardhat 3, please visit the [Getting Started guide](https://hardhat.org/docs/getting-started#getting-started-with-hardhat-3). To share your feedback, join our [Hardhat 3](https://hardhat.org/hardhat3-telegram-group) Telegram group or [open an issue](https://github.com/NomicFoundation/hardhat/issues/new) in our GitHub issue tracker.
+It is deployed on **BNB Smart Chain Mainnet** and follows the **BEP-20 / ERC-20 compatible** standard.
 
-## Project Overview
+OCA Token is designed to connect the different services of the OCA Fintech ecosystem, including **OCA Markets**, **OCA Price Analyzer**, **OCA Shop**, and **OCA Voice**.
 
-This example project includes:
+---
 
-- A simple Hardhat configuration file.
-- Foundry-compatible Solidity unit tests.
-- TypeScript integration tests using `mocha` and ethers.js
-- Examples demonstrating how to connect to different types of networks, including locally simulating OP mainnet.
+## Project Status
 
-## Usage
+| Item | Status |
+|---|---|
+| Mainnet Contract | Deployed |
+| Token Supply | Created |
+| Website | In development |
+| Liquidity Pool | Not created yet |
+| PancakeSwap Trading | Not active yet |
+| BscScan Verification | Pending |
+| LP Lock | Planned after liquidity creation |
 
-### Running Tests
+---
 
-To run all the tests in the project, execute the following command:
+## Token Information
 
-```shell
+| Item | Details |
+|---|---|
+| Token Name | OCA Token |
+| Symbol | OCA |
+| Blockchain | BNB Smart Chain |
+| Chain ID | 56 |
+| Standard | BEP-20 / ERC-20 compatible |
+| Decimals | 18 |
+| Total Supply | 100,000,000 OCA |
+| Mint After Deployment | No |
+| Wallet-to-wallet Tax | 0% |
+
+---
+
+## Official Contract
+
+```txt
+OCA Contract Address:
+0xF611936b9BFb46738dE3E9622F452020Aa57Fd37
+```
+
+BscScan:
+
+```txt
+https://bscscan.com/address/COLLE_ICI_TON_ADRESSE_CONTRAT_MAINNET
+```
+
+Official website:
+
+```txt
+https://token.ocafintech.com
+```
+
+Always verify the official contract address from the official OCA Token website before interacting with the token.
+
+---
+
+## Taxes
+
+OCA Token uses a simple buy and sell tax system.
+
+| Action | Burn | Treasury | Total |
+|---|---:|---:|---:|
+| Buy | 0.5% | 0.5% | 1% |
+| Sell | 0.5% | 0.5% | 1% |
+| Wallet Transfer | 0% | 0% | 0% |
+
+Wallet-to-wallet transfers are not taxed.
+
+---
+
+## Burn Mechanism
+
+The burn tax sends tokens to the zero address:
+
+```txt
+0x0000000000000000000000000000000000000000
+```
+
+Tokens sent to the zero address are permanently removed from circulation.
+
+---
+
+## Treasury
+
+```txt
+Treasury Wallet:
+0x21Cf863D0E342bf0B921977af265Ee67E260C1d4
+```
+
+The treasury tax is intended to support:
+
+- OCA Fintech ecosystem development
+- Operations
+- Liquidity growth
+- Product development
+- Future ecosystem initiatives
+
+---
+
+## Liquidity Plan
+
+The initial liquidity plan is:
+
+```txt
+10,000,000 OCA + approximately $100 worth of BNB
+```
+
+Estimated initial price:
+
+```txt
+$0.00001 per OCA
+```
+
+Liquidity pool status:
+
+```txt
+Not created yet
+```
+
+LP lock plan:
+
+```txt
+2 years after liquidity creation
+```
+
+After the liquidity pool is created, the official PancakeSwap link and LP lock proof will be published on the official website.
+
+---
+
+## OCA Fintech Ecosystem
+
+OCA Token is part of the OCA Fintech ecosystem.
+
+### OCA Fintech
+
+Parent ecosystem website.
+
+```txt
+https://ocafintech.com
+```
+
+### OCA Markets
+
+Crypto, stock, and exchange rate comparison platform.
+
+```txt
+https://markets.ocafintech.com
+```
+
+### OCA Price Analyzer
+
+Second-hand product price analysis platform.
+
+```txt
+https://analyser.ocafintech.com
+```
+
+### OCA Shop
+
+OCA and crypto-themed e-commerce platform.
+
+```txt
+https://shop.ocafintech.com
+```
+
+### OCA Voice
+
+Voice robot service for appointment scheduling.
+
+```txt
+https://voice.ocafintech.com
+```
+
+---
+
+## Utility
+
+OCA Token is designed as a utility and loyalty token for the OCA Fintech ecosystem.
+
+Planned utilities include:
+
+- OCA member status
+- Benefits inside the OCA ecosystem
+- Discounts on OCA Price Analyzer
+- Member advantages on OCA Shop
+- Future payment integrations
+- Future loyalty features
+- Future ecosystem access features
+
+A wallet holding OCA may become eligible for OCA member benefits depending on the rules of each OCA service.
+
+---
+
+## Smart Contract Features
+
+The OCA Token smart contract includes:
+
+- Fixed supply of 100,000,000 OCA
+- No public mint function
+- Buy tax
+- Sell tax
+- Automatic burn
+- Treasury tax
+- Wallet-to-wallet transfers without tax
+- PancakeSwap pair configuration
+- Owner-controlled treasury wallet update
+- Owner-controlled tax exclusion list
+- BEP-20 / ERC-20 compatible functions
+
+---
+
+## What the Contract Does Not Include
+
+The contract does not include:
+
+- No staking function
+- No blacklist function
+- No hidden mint function
+- No trading pause function
+- No max wallet function
+- No max transaction function
+- No function to take tokens from users
+- No function to block normal wallet-to-wallet transfers
+
+---
+
+## Main Contract Functions
+
+### ERC-20 / BEP-20 Functions
+
+The token supports standard token functions such as:
+
+- `name()`
+- `symbol()`
+- `decimals()`
+- `totalSupply()`
+- `balanceOf(address)`
+- `transfer(address, amount)`
+- `approve(address, amount)`
+- `allowance(owner, spender)`
+- `transferFrom(from, to, amount)`
+
+### Owner Functions
+
+The owner can manage specific configuration functions:
+
+- `setTreasuryWallet(address)`
+- `setPancakePair(address)`
+- `setExcludedFromTax(address, bool)`
+
+These functions are used to configure the treasury wallet, the official PancakeSwap pair, and tax exclusions.
+
+---
+
+## Security Notice
+
+OCA Token does not promise profit, guaranteed returns, or financial performance.
+
+Users should always verify the official contract address before interacting with the token.
+
+Do not trust:
+
+- Unofficial links
+- Fake PancakeSwap pools
+- Copied token contracts
+- Random contract addresses shared on social media
+- Fake support accounts
+
+Official OCA Token website:
+
+```txt
+https://token.ocafintech.com
+```
+
+Official contract address:
+
+```txt
+COLLE_ICI_TON_ADRESSE_CONTRAT_MAINNET
+```
+
+---
+
+## Development
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Compile contracts:
+
+```bash
+npx hardhat compile
+```
+
+Run tests:
+
+```bash
 npx hardhat test
 ```
 
-You can also selectively run the Solidity or `mocha` tests:
+Run the website locally:
 
-```shell
-npx hardhat test solidity
-npx hardhat test mocha
+```bash
+cd website
+npm install
+npm run dev
 ```
 
-### Make a deployment to Sepolia
+Build the website:
 
-This project includes an example Ignition module to deploy the contract. You can deploy this module to a locally simulated chain or to Sepolia.
-
-To run the deployment to a local chain:
-
-```shell
-npx hardhat ignition deploy ignition/modules/Counter.ts
+```bash
+cd website
+npm run build
 ```
 
-To run the deployment to Sepolia, you need an account with funds to send the transaction. The provided Hardhat configuration includes a Configuration Variable called `SEPOLIA_PRIVATE_KEY`, which you can use to set the private key of the account you want to use.
+---
 
-You can set the `SEPOLIA_PRIVATE_KEY` variable using the `hardhat-keystore` plugin or by setting it as an environment variable.
+## Repository Structure
 
-To set the `SEPOLIA_PRIVATE_KEY` config variable using `hardhat-keystore`:
-
-```shell
-npx hardhat keystore set SEPOLIA_PRIVATE_KEY
+```txt
+oca-token-mainnet/
+├── contracts/
+│   └── OcaToken.sol
+├── scripts/
+│   └── deploy-oca-token-mainnet.ts
+├── test/
+│   └── OcaToken.ts
+├── website/
+│   ├── src/
+│   ├── public/
+│   └── package.json
+├── deployments-notes.txt
+├── hardhat.config.ts
+├── package.json
+├── .env.example
+├── .gitignore
+└── README.md
 ```
 
-After setting the variable, you can run the deployment with the Sepolia network:
+---
 
-```shell
-npx hardhat ignition deploy --network sepolia ignition/modules/Counter.ts
-```
->>>>>>> 5d2ae31 (Initial OCA Token mainnet contract and website)
+## Important Security Rule
+
+Never publish:
+
+- Private key
+- Seed phrase
+- `.env` file
+- MetaMask password
+- Secret API keys
+
+Only public addresses should appear in this repository.
+
+---
+
+## License
+
+This project is maintained by **OCA Fintech**.
+
+All rights reserved unless stated otherwise.
