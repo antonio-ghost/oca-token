@@ -1,0 +1,33 @@
+OCA Token - MAINNET
+
+Contract address:
+0xF611936b9BFb46738dE3E9622F452020Aa57Fd37
+
+Network:
+BNB Smart Chain Mainnet
+
+Chain ID:
+56
+
+Token name:
+OCA Token
+
+Symbol:
+OCA
+
+Decimals:
+18
+
+Total supply:
+100 000 000 OCA
+
+Owner / Deployer:
+0xADRESSE_OWNER_ICI
+
+Treasury:
+0xADRESSE_TREASURY_ICI
+
+Status:
+Mainnet contract deployed successfully.
+Liquidity pool not created yet.
+PancakeSwap trading not active yet.
