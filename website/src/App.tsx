@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import "./App.css";
 import { OCA_CONFIG } from "./config";
+import LiveMarketData from "./components/LiveMarketData";
 
 type Lang = "en" | "fr";
 
@@ -573,28 +574,7 @@ function App() {
         </div>
       </section>
 
-      <section className="section priceComing" id="market-data">
-        <div>
-          <span className="eyebrow">Market data</span>
-          <h2>{t.priceTitle}</h2>
-          <p>{t.pricesText}</p>
-        </div>
-
-        <div className="pricePanel">
-          <div>
-            <span>Price data</span>
-            <strong>Coming soon</strong>
-          </div>
-          <div>
-            <span>Liquidity pool</span>
-            <strong>Not live yet</strong>
-          </div>
-          <div>
-            <span>PancakeSwap</span>
-            <strong>Coming soon</strong>
-          </div>
-        </div>
-      </section>
+      <LiveMarketData lang={lang} />
 
       <section className="section faq" id="faq">
         <div className="sectionHead">

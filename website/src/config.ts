@@ -17,12 +17,25 @@ export const OCA_CONFIG = {
   ocaMarkets: "https://markets.ocafintech.com",
 
   contactEmail: "contact@ocafintech.com",
+  pancakePairAddress: "0x26f96e7ee907fbcb5654cbabb12904d63988be9e",
+
+  dexScreenerUrl:
+  "https://dexscreener.com/bsc/0x26f96e7ee907fbcb5654cbabb12904d63988be9e",
+
+  dexScreenerApiUrl:
+  "https://api.dexscreener.com/latest/dex/pairs/bsc/0x26f96e7ee907fbcb5654cbabb12904d63988be9e",
+
+  dexScreenerEmbedUrl:
+  "https://dexscreener.com/bsc/0x26f96e7ee907fbcb5654cbabb12904d63988be9e?embed=1&theme=dark&trades=0&info=0",
+
+  pancakeSwapUrl:
+  "https://pancakeswap.finance/swap?chain=bsc&outputCurrency=0xF611936b9BFb46738dE3E9622F452020Aa57Fd37",
 
   initialLiquidity: "10,000,000 OCA + $100 worth of BNB",
   initialEstimatedPrice: "$0.00001 per OCA",
   lpLockPlan: "2 years after liquidity creation",
 
   contractVerified: true,
-  poolCreated: false,
-  tradingLive: false,
+  poolCreated: true,
+  tradingLive: true,
 };
