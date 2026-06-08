@@ -146,6 +146,7 @@ const text = {
 
 function App() {
   const [lang, setLang] = useState<Lang>("en");
+  const [menuOpen, setMenuOpen] = useState(false);
   const [copied, setCopied] = useState(false);
   const t = text[lang];
 
@@ -298,26 +299,57 @@ function App() {
   return (
     <main className="site">
       <header className="topbar">
-        <a href="#" className="brand">
-          <div className="brandMark">OCA</div>
-          <div>
-            <strong>Token</strong>
-            <span>token.ocafintech.com</span>
-          </div>
-        </a>
+  <a className="brand" href="#home" onClick={() => setMenuOpen(false)}>
+    <div className="brandMark">OCA</div>
+    <div>
+      <strong>Token</strong>
+      <span>token.ocafintech.com</span>
+    </div>
+  </a>
 
-        <nav className="nav">
-          <a href="#token">{t.navToken}</a>
-          <a href="#utility">{t.navUtility}</a>
-          <a href="#buy">{t.navBuy}</a>
-           <a href="#market-data">{t.navMarket}</a>
-          <a href="#faq">{t.navFaq}</a>
-        </nav>
+  <nav className={`nav ${menuOpen ? "navOpen" : ""}`}>
+    <a href="#token" onClick={() => setMenuOpen(false)}>
+      {t.navToken}
+    </a>
+    <a href="#utility" onClick={() => setMenuOpen(false)}>
+      {t.navUtility}
+    </a>
+    <a href="#buy" onClick={() => setMenuOpen(false)}>
+      {t.navBuy}
+    </a>
+    <a href="#market-data" onClick={() => setMenuOpen(false)}>
+      {t.navMarket}
+    </a>
+    <a href="#faq" onClick={() => setMenuOpen(false)}>
+      {t.navFaq}
+    </a>
+  </nav>
 
-        <button className="langBtn" onClick={() => setLang(lang === "en" ? "fr" : "en")}>
-          {t.language}
-        </button>
-      </header>
+  <div className="topbarActions">
+    <button
+      className="menuBtn"
+      type="button"
+      aria-label="Open navigation menu"
+      aria-expanded={menuOpen}
+      onClick={() => setMenuOpen((current) => !current)}
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <button
+      className="langBtn"
+      type="button"
+      onClick={() => {
+        setLang(lang === "en" ? "fr" : "en");
+        setMenuOpen(false);
+      }}
+    >
+      {t.language}
+    </button>
+  </div>
+</header>
 
       <section className="hero">
         <div className="heroText">
