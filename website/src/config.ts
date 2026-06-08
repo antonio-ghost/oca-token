@@ -30,12 +30,30 @@ export const OCA_CONFIG = {
 
   pancakeSwapUrl:
   "https://pancakeswap.finance/swap?chain=bsc&outputCurrency=0xF611936b9BFb46738dE3E9622F452020Aa57Fd37",
+  
+  pancakeBuyUrl:
+  "https://pancakeswap.finance/swap?chain=bsc&outputCurrency=0xF611936b9BFb46738dE3E9622F452020Aa57Fd37",
+
+  pancakeSellUrl:
+  "https://pancakeswap.finance/swap?chain=bsc&inputCurrency=0xF611936b9BFb46738dE3E9622F452020Aa57Fd37&outputCurrency=BNB",
+ 
+  pancakePairBscScanUrl:
+  "https://bscscan.com/address/0x26f96e7ee907fbcb5654cbabb12904d63988be9e",
 
   initialLiquidity: "10,000,000 OCA + $100 worth of BNB",
   initialEstimatedPrice: "$0.00001 per OCA",
   lpLockPlan: "2 years after liquidity creation",
-
+   
   contractVerified: true,
   poolCreated: true,
   tradingLive: true,
+  lpLocked: true,
+lpLockProvider: "Mudra Liquidity Locker",
+lpLockProofUrl:
+  "https://mudra.website/?certificate=yes&type=0&lp=0x26f96e7ee907fbcb5654cbabb12904d63988be9e",
+lpLockTxUrl:
+  "https://bscscan.com/tx/0x5cf0b97bec2c82e98b555da173f555c3b2143790f0451c1b16e979eaad6b9177",
+lpLockPairName: "WBNB / OCA",
+lpLockedAmount: "1278.100641577180336506 LP",
+lpUnlockDate: "June 22, 2028",
 };

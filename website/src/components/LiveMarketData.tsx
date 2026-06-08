@@ -143,9 +143,7 @@ function formatCompact(value?: number) {
   }).format(value);
 }
 
-function shortAddress(address: string) {
-  return `${address.slice(0, 6)}...${address.slice(-4)}`;
-}
+
 
 export default function LiveMarketData({ lang }: LiveMarketDataProps) {
   const t = text[lang];

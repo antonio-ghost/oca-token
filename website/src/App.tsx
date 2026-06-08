@@ -20,14 +20,25 @@ const text = {
     heroText:
       "OCA Token is designed to connect the OCA Fintech ecosystem, including OCA Shop, OCA Price Analyzer, OCA Voice, OCA Markets and future OCA services.",
     viewContract: "View Contract",
-    howToBuy: "How to Buy",
+    howToBuy: "BUY/SELL",
     explore: "Explore OCA Ecosystem",
+    
+    buyOnPancake: "Buy OCA on PancakeSwap",
+    sellOnPancake: "Sell OCA on PancakeSwap",
+    pairName: "Official pair: OCA/WBNB",
+pairNote:
+  "On PancakeSwap, BNB is represented as WBNB inside the liquidity pool. This is normal.",
+  walletDisplayTitle: "Wallet display notice",
+walletImportNote:
+  "After buying, if OCA does not appear automatically in MetaMask or Trust Wallet, import it manually using the official OCA contract address.",
+
+importantBeforeSelling: "Before selling, make sure you are using the official OCA/WBNB pair and review price impact, taxes and available liquidity.",
 
     statusContract: "Contract deployed",
-    statusPool: "Liquidity pool coming soon",
-    statusTrading: "PancakeSwap trading not active yet",
+    statusPool: "Liquidity pool created",
+    statusTrading: "Trading live on PancakeSwap V2",
     tradingNotice:
-      "Trading will be available after the official PancakeSwap liquidity pool is created.",
+      "Live market data available",
 
     tokenInfo: "Token information",
     tokenInfoTitle: "Transparent token structure",
@@ -53,10 +64,10 @@ const text = {
 
     buyTitle: "How to buy",
     buyNotice:
-      "Buying OCA Token will be available after the official PancakeSwap liquidity pool is created.",
+      "OCA Token is now live on PancakeSwap V2 through the official OCA/WBNB pair. Always use the official contract address and the official links from token.ocafintech.com.",
     sellTitle: "How to sell",
     sellNotice:
-      "Once liquidity is live, users will be able to sell OCA Token through PancakeSwap, depending on available liquidity and market conditions.",
+      "OCA Token can be sold through the official OCA/WBNB pair on PancakeSwap V2. Selling depends on available liquidity, price impact and market conditions.",
     sellWarning: "Selling depends on the liquidity available in the pool.",
 
     burnTitle: "What is burn?",
@@ -72,6 +83,24 @@ const text = {
     faqTitle: "FAQ",
     footerText: "OCA Token is part of the OCA Fintech ecosystem.",
     contact: "Contact",
+    officialPairTitle: "Official PancakeSwap V2 Pair",
+officialPairName: "OCA/WBNB",
+officialPairText:
+  "This is the official OCA Token liquidity pair on PancakeSwap V2. Always verify the pair address before trading.",
+viewPairOnBscScan: "View pair on BscScan",
+viewChartOnDexScreener: "View chart on DEX Screener",
+lpLockEyebrow: "Liquidity security",
+lpLockTitle: "LP tokens locked",
+lpLockText:
+  "The official OCA/WBNB PancakeSwap V2 liquidity tokens are locked with Mudra Liquidity Locker.",
+lpLockStatusLabel: "Status",
+lpLockStatus: "Locked",
+lpLockProviderLabel: "Locker",
+lpLockPairLabel: "Pair",
+lpLockAmountLabel: "Locked LP tokens",
+lpUnlockDateLabel: "Unlock date",
+lpProof: "View Mudra proof",
+lpTxProof: "View lock transaction",
   },
 
   fr: {
@@ -88,14 +117,25 @@ const text = {
     heroText:
       "OCA Token est conçu pour connecter l’écosystème OCA Fintech, incluant OCA Shop, OCA Price Analyzer, OCA Voice, OCA Markets et les futurs services OCA.",
     viewContract: "Voir le contrat",
-    howToBuy: "Comment acheter",
+    howToBuy: "Acheter/vendre",
     explore: "Explorer l’écosystème OCA",
+    
+    buyOnPancake: "Acheter OCA sur PancakeSwap",
+    sellOnPancake: "Vendre OCA sur PancakeSwap",
+    pairName: "Pair officielle : OCA/WBNB",
+    pairNote:
+    "Sur PancakeSwap, BNB est représenté comme WBNB dans la pool de liquidité. C’est normal.",
+    walletDisplayTitle: "Affichage dans le wallet",
+walletImportNote:
+  "Après l’achat, si OCA n’apparaît pas automatiquement dans MetaMask ou Trust Wallet, importez-le manuellement avec l’adresse officielle du contrat OCA.",
+
+importantBeforeSelling: "Avant de vendre, assurez-vous d’utiliser la pair officielle OCA/WBNB et vérifiez l’impact sur le prix, les taxes et la liquidité disponible.",
 
     statusContract: "Contrat déployé",
-    statusPool: "Pool de liquidité bientôt disponible",
-    statusTrading: "Trading PancakeSwap pas encore actif",
+    statusPool: "Pool de liquidité créée",
+    statusTrading: "Trading actif sur PancakeSwap V2",
     tradingNotice:
-      "Le trading sera disponible après la création officielle de la pool de liquidité PancakeSwap.",
+      "Données marché en direct disponibles",
 
     tokenInfo: "Informations du token",
     tokenInfoTitle: "Structure transparente du token",
@@ -121,10 +161,10 @@ const text = {
 
     buyTitle: "Comment acheter",
     buyNotice:
-      "L’achat de OCA Token sera disponible après la création officielle de la pool de liquidité PancakeSwap.",
+      "OCA Token est maintenant disponible sur PancakeSwap V2 via la pair officielle OCA/WBNB. Utilisez toujours l’adresse officielle du contrat et les liens officiels depuis token.ocafintech.com.",
     sellTitle: "Comment vendre",
     sellNotice:
-      "Quand la liquidité sera active, les utilisateurs pourront vendre OCA Token via PancakeSwap, selon la liquidité disponible et les conditions du marché.",
+      "OCA Token peut être vendu via la pair officielle OCA/WBNB sur PancakeSwap V2. La vente dépend de la liquidité disponible, de l’impact sur le prix et des conditions du marché.",
     sellWarning: "La vente dépend de la liquidité disponible dans la pool.",
 
     burnTitle: "C’est quoi le burn ?",
@@ -142,6 +182,24 @@ const text = {
     faqTitle: "FAQ",
     footerText: "OCA Token fait partie de l’écosystème OCA Fintech.",
     contact: "Contact",
+    officialPairTitle: "Pair officielle PancakeSwap V2",
+officialPairName: "OCA/WBNB",
+officialPairText:
+  "Ceci est la pair officielle de liquidité OCA Token sur PancakeSwap V2. Vérifiez toujours l’adresse de la pair avant de trader.",
+viewPairOnBscScan: "Voir la pair sur BscScan",
+viewChartOnDexScreener: "Voir le graphique sur DEX Screener",
+lpLockEyebrow: "Sécurité de la liquidité",
+lpLockTitle: "LP tokens verrouillés",
+lpLockText:
+  "Les LP tokens officiels de la pair OCA/WBNB sur PancakeSwap V2 sont verrouillés avec Mudra Liquidity Locker.",
+lpLockStatusLabel: "Statut",
+lpLockStatus: "Verrouillé",
+lpLockProviderLabel: "Locker",
+lpLockPairLabel: "Pair",
+lpLockAmountLabel: "LP tokens verrouillés",
+lpUnlockDateLabel: "Date de déverrouillage",
+lpProof: "Voir la preuve Mudra",
+lpTxProof: "Voir la transaction du lock",
   },
 };
 
@@ -253,7 +311,7 @@ function App() {
           "Contract deployed on BNB Smart Chain.",
           "Official contract address displayed publicly.",
           "Liquidity pool planned on PancakeSwap.",
-          "LP lock planned after liquidity creation.",
+          "LP token are locked for 2 years.",
         ]
       : [
           "Pas de mint après le déploiement.",
@@ -261,7 +319,7 @@ function App() {
           "Contrat déployé sur BNB Smart Chain.",
           "Adresse officielle du contrat affichée publiquement.",
           "Pool de liquidité prévue sur PancakeSwap.",
-          "Lock LP prévu après la création de la liquidité.",
+          "token lp sont Verrouillés pour 2 ans",
         ];
 
   const faqs =
@@ -276,9 +334,9 @@ function App() {
           ["What is the treasury?", "The treasury receives 0.5% of buy and sell transactions to support the OCA ecosystem."],
           ["How do I get the 50% discount?", "Holding any amount of OCA Token can make a wallet eligible for OCA member benefits, including potential discounts across eligible OCA services."],
           ["How do I join the OCA family?", "By holding OCA Token and connecting to eligible OCA ecosystem services when integrations become available."],
-          ["Can I sell my tokens?", "Selling will be possible after liquidity is live, depending on available liquidity and market conditions."],
+          ["Can I sell my tokens?", "Selling is  possible via pancakeswap  depending on available liquidity and market conditions."],
           ["What is staking?", "Staking has not been officially decided by the OCA team yet."],
-          ["Is the liquidity locked?", "LP lock is planned after liquidity creation. It is not locked yet because the pool is not live yet."],
+          ["Is the liquidity locked?", "LP lock is locked for 2 years."],
           ["Where can I find the official contract address?", "The official contract address is displayed on token.ocafintech.com and on the official BscScan link."],
         ]
       : [
@@ -291,9 +349,9 @@ function App() {
           ["C’est quoi la trésorerie ?", "La trésorerie reçoit 0,5% des achats et des ventes pour soutenir l’écosystème OCA."],
           ["Comment obtenir le rabais de 50% ?", "Détenir n’importe quelle quantité de OCA Token peut rendre un wallet éligible aux avantages membre OCA, incluant de possibles rabais sur les services admissibles."],
           ["Comment rejoindre la famille OCA ?", "En détenant OCA Token et en connectant son wallet aux services OCA admissibles lorsque les intégrations seront disponibles."],
-          ["Puis-je vendre mes tokens ?", "La vente sera possible après la création de la liquidité, selon la liquidité disponible et les conditions du marché."],
+          ["Puis-je vendre mes tokens ?", "La vente est  possible via pancakeswap , selon la liquidité disponible et les conditions du marché."],
           ["C’est quoi le staking ?", "Le staking n’a pas encore été officiellement décidé par l’équipe OCA."],
-          ["La liquidité est-elle lockée ?", "Le lock LP est prévu après la création de la liquidité. Ce n’est pas encore locké car la pool n’est pas encore active."],
+          ["La liquidité est-elle lockée ?", "Le lock LP est Verrouillé pour 2 ans."],
           ["Où trouver l’adresse officielle du contrat ?", "L’adresse officielle du contrat est affichée sur token.ocafintech.com et sur le lien officiel BscScan."],
         ];
 
@@ -315,9 +373,10 @@ function App() {
     <a href="#utility" onClick={() => setMenuOpen(false)}>
       {t.navUtility}
     </a>
-    <a href="#buy" onClick={() => setMenuOpen(false)}>
-      {t.navBuy}
+    <a className="btn secondary" href="#buy">
+    {t.howToBuy}
     </a>
+  
     <a href="#market-data" onClick={() => setMenuOpen(false)}>
       {t.navMarket}
     </a>
@@ -413,6 +472,40 @@ function App() {
           </div>
         </aside>
       </section>
+      <section className="section officialPairSection">
+  <div className="sectionHeader">
+    
+    <h2>{t.officialPairTitle}</h2>
+    <p>{t.officialPairText}</p>
+  </div>
+
+  <div className="officialPairCard">
+    <div>
+      <span>{t.officialPairName}</span>
+      <code>{OCA_CONFIG.pancakePairAddress}</code>
+    </div>
+
+    <div className="marketActions">
+      <a
+        className="btn ghost"
+        href={OCA_CONFIG.pancakePairBscScanUrl}
+        target="_blank"
+        rel="noreferrer"
+      >
+        {t.viewPairOnBscScan}
+      </a>
+
+      <a
+        className="btn primary"
+        href={OCA_CONFIG.dexScreenerUrl}
+        target="_blank"
+        rel="noreferrer"
+      >
+        {t.viewChartOnDexScreener}
+      </a>
+    </div>
+  </div>
+</section>
 
       <section className="section" id="token">
         <div className="sectionHead">
@@ -464,14 +557,7 @@ function App() {
             <span>Contract</span>
             <strong>{shortAddress}</strong>
           </div>
-          <div>
-            <span>Trading</span>
-            <strong>Not live yet</strong>
-          </div>
-          <div>
-            <span>LP lock</span>
-            <strong>Planned after pool creation</strong>
-          </div>
+          
         </div>
       </section>
 
@@ -518,7 +604,26 @@ function App() {
         <div className="processCard">
           <span className="eyebrow">PancakeSwap</span>
           <h2>{t.buyTitle}</h2>
+          
           <p>{t.buyNotice}</p>
+          <a
+  className="btn primary"
+  href={OCA_CONFIG.pancakeBuyUrl}
+  target="_blank"
+  rel="noreferrer"
+>
+  {t.buyOnPancake}
+</a>
+<div className="pairInfoBox">
+  <strong>{t.pairName}</strong>
+  <p>{t.pairNote}</p>
+</div>
+
+<div className="walletImportBox">
+  <strong>Wallet display notice</strong>
+  <p>{t.walletImportNote}</p>
+  <code>{OCA_CONFIG.contractAddress}</code>
+</div>
 
           <ol>
             {buySteps.map((step) => (
@@ -535,6 +640,23 @@ function App() {
           <span className="eyebrow">Liquidity</span>
           <h2>{t.sellTitle}</h2>
           <p>{t.sellNotice}</p>
+          <a
+  className="btn danger"
+  href={OCA_CONFIG.pancakeSellUrl}
+  target="_blank"
+  rel="noreferrer"
+>
+  {t.sellOnPancake}
+</a>
+<div className="pairInfoBox">
+  <strong>{t.pairName}</strong>
+  <p>{t.pairNote}</p>
+</div>
+
+<div className="walletImportBox sell">
+  <strong>Important before selling</strong>
+  <p>{t.importantBeforeSelling}</p>
+</div>
 
           <ol>
             {sellSteps.map((step) => (
@@ -575,6 +697,60 @@ function App() {
       </section>
 
       <LiveMarketData lang={lang} />
+      <section className="section lpLockSection">
+  <div className="sectionHeader">
+    <span>{t.lpLockEyebrow}</span>
+    
+    <p>{t.lpLockText}</p>
+  </div>
+
+  <div className="lpLockGrid">
+    <div className="lpLockCard locked">
+      <span>{t.lpLockStatusLabel}</span>
+      <strong>{t.lpLockStatus}</strong>
+    </div>
+
+    <div className="lpLockCard">
+      <span>{t.lpLockProviderLabel}</span>
+      <strong>{OCA_CONFIG.lpLockProvider}</strong>
+    </div>
+
+    <div className="lpLockCard">
+      <span>{t.lpLockPairLabel}</span>
+      <strong>{OCA_CONFIG.lpLockPairName}</strong>
+    </div>
+
+    <div className="lpLockCard">
+      <span>{t.lpLockAmountLabel}</span>
+      <strong>{OCA_CONFIG.lpLockedAmount}</strong>
+    </div>
+
+    <div className="lpLockCard">
+      <span>{t.lpUnlockDateLabel}</span>
+      <strong>{OCA_CONFIG.lpUnlockDate}</strong>
+    </div>
+  </div>
+
+  <div className="lpLockActions">
+    <a
+      className="btn primary"
+      href={OCA_CONFIG.lpLockProofUrl}
+      target="_blank"
+      rel="noreferrer"
+    >
+      {t.lpProof}
+    </a>
+
+    <a
+      className="btn ghost"
+      href={OCA_CONFIG.lpLockTxUrl}
+      target="_blank"
+      rel="noreferrer"
+    >
+      {t.lpTxProof}
+    </a>
+  </div>
+</section>
 
       <section className="section faq" id="faq">
         <div className="sectionHead">
