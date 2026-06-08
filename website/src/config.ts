@@ -22,7 +22,7 @@ export const OCA_CONFIG = {
   initialEstimatedPrice: "$0.00001 per OCA",
   lpLockPlan: "2 years after liquidity creation",
 
-  contractVerified: false,
+  contractVerified: true,
   poolCreated: false,
   tradingLive: false,
 };

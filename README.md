@@ -17,7 +17,7 @@ OCA Token is designed to connect the different services of the OCA Fintech ecosy
 | Website | In development |
 | Liquidity Pool | Not created yet |
 | PancakeSwap Trading | Not active yet |
-| BscScan Verification | Pending |
+| BscScan Verification | verified |
 | LP Lock | Planned after liquidity creation |
 
 ---
