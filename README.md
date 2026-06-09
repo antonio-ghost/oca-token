@@ -376,7 +376,7 @@ https://token.ocafintech.com
 Official contract address:
 
 ```txt
-COLLE_ICI_TON_ADRESSE_CONTRAT_MAINNET
+https://bscscan.com/address/0xF611936b9BFb46738dE3E9622F452020Aa57Fd37
 ```
 
 ---
