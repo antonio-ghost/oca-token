@@ -1,13 +1,4 @@
-OCA Token - MAINNET
-
-Contract address:
-0xF611936b9BFb46738dE3E9622F452020Aa57Fd37
-
-Network:
-BNB Smart Chain Mainnet
-
-Chain ID:
-56
+OCA Token - Final Deployment Notes
 
 Token name:
 OCA Token
@@ -15,19 +6,56 @@ OCA Token
 Symbol:
 OCA
 
-Decimals:
-18
+Blockchain:
+BNB Smart Chain Mainnet
 
-Total supply:
-100 000 000 OCA
+Contract address:
+0xF611936b9BFb46738dE3E9622F452020Aa57Fd37
 
-Owner / Deployer:
-0xADRESSE_OWNER_ICI
+BscScan:
+https://bscscan.com/token/0xF611936b9BFb46738dE3E9622F452020Aa57Fd37
 
-Treasury:
-0xADRESSE_TREASURY_ICI
+Official website:
+https://token.ocafintech.com
 
-Status:
-Mainnet contract deployed successfully.
-Liquidity pool not created yet.
-PancakeSwap trading not active yet.
+GitHub:
+https://github.com/antonio-ghost/oca-token
+
+PancakeSwap:
+https://pancakeswap.finance/swap?chain=bsc&outputCurrency=0xF611936b9BFb46738dE3E9622F452020Aa57Fd37
+
+DEX Screener:
+https://dexscreener.com/bsc/0x26f96e7ee907fbcb5654cbabb12904d63988be9e
+
+Official pair:
+OCA/WBNB
+
+Pair address:
+0x26f96e7ee907fbcb5654cbabb12904d63988be9e
+
+LP Lock provider:
+Mudra Liquidity Locker
+
+LP Lock proof:
+https://mudra.website/?certificate=yes&type=0&lp=0x26f96e7ee907fbcb5654cbabb12904d63988be9e
+
+LP Lock transaction:
+https://bscscan.com/tx/0x5cf0b97bec2c82e98b555da173f555c3b2143790f0451c1b16e979eaad6b9177
+
+Locked LP tokens:
+1278.100641577180336506 LP
+
+Unlock date:
+June 22, 2028
+
+Buy test transaction:
+0x42f602b4817afb04fbb27506715abef5093fc70ecb15ec6c51816f445a3d1c4f
+
+Sell test transaction:
+0xaa600b4ed095eaf74a2665bd17d66667c5f594503c79a57cec8d245f1fb4038a
+
+BscScan token info request:
+Submitted
+
+DEX Screener enhanced profile:
+Not paid / waiting
