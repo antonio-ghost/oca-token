@@ -54,7 +54,7 @@ OCA Contract Address:
 BscScan:
 
 ```txt
-https://bscscan.com/address/COLLE_ICI_TON_ADRESSE_CONTRAT_MAINNET
+https://bscscan.com/address/0xF611936b9BFb46738dE3E9622F452020Aa57Fd37
 ```
 
 Official website:
