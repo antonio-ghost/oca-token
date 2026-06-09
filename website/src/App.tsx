@@ -109,6 +109,7 @@ lpTxProof: "View lock transaction",
     navBuy: "Acheter",
     navMarket: "Données marché",
     navFaq: "FAQ",
+    
     language: "EN",
 
     heroBadge: "Site officiel OCA Token",
